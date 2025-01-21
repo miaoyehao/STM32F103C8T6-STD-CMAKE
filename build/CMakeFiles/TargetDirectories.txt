@@ -1,0 +1,3 @@
+/Users/miao/Documents/StmProject/STD/build/CMakeFiles/STD.elf.dir
+/Users/miao/Documents/StmProject/STD/build/CMakeFiles/edit_cache.dir
+/Users/miao/Documents/StmProject/STD/build/CMakeFiles/rebuild_cache.dir
