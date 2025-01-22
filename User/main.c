@@ -1,12 +1,22 @@
 #include "stm32f10x.h"                  // Device header
 #include "Delay.h"
 #include "OLED.h"
+#include <stm32f10x_rcc.h>
+#include <stm32f10x_gpio.h>
 
 int main(void)
 {
 	/*模块初始化*/
 	OLED_Init();		//OLED初始化
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOA, ENABLE);	//开启GPIOA的时钟
+	/*GPIO初始化*/
+	GPIO_InitTypeDef GPIO_InitStructure;					//定义结构体变量
 	
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP;		//GPIO模式，赋值为推挽输出模式
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_0;				//GPIO引脚，赋值为第0号引脚
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz;		//GPIO速度，赋值为50MHz
+	
+	GPIO_Init(GPIOA, &GPIO_InitStructure);	
 	/*OLED显示*/
 	OLED_ShowChar(1, 1, 'A');				//1行1列显示字符A
 	
@@ -23,6 +33,9 @@ int main(void)
 	
 	while (1)
 	{
-		
+		GPIO_ResetBits(GPIOA, GPIO_Pin_0);	//GPIOA的第0号引脚输出低电平
+		Delay_ms(500);						//延时500ms
+		GPIO_SetBits(GPIOA,GPIO_Pin_0);	//GPIOA的第0号引脚输出高电平
+		Delay_ms(500);						//延时500ms
 	}
 }

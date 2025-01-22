@@ -38,7 +38,7 @@
   * <h2><center>&copy; COPYRIGHT 2011 STMicroelectronics</center></h2>
   ******************************************************************************
   */
-#define STM32F10X_MD
+
 /** @addtogroup CMSIS
   * @{
   */
