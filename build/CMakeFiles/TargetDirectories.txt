@@ -1,3 +1,3 @@
-/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/build/CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir
-/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/build/CMakeFiles/edit_cache.dir
-/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/build/CMakeFiles/rebuild_cache.dir
+/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir
+/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles/edit_cache.dir
+/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles/rebuild_cache.dir

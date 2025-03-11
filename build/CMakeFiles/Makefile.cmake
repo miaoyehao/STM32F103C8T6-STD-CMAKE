@@ -7,11 +7,11 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/CMakeLists.txt"
-  "CMakeFiles/3.31.4/CMakeASMCompiler.cmake"
-  "CMakeFiles/3.31.4/CMakeCCompiler.cmake"
-  "CMakeFiles/3.31.4/CMakeCXXCompiler.cmake"
-  "CMakeFiles/3.31.4/CMakeSystem.cmake"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/CMakeLists.txt"
+  "CMakeFiles/3.31.5/CMakeASMCompiler.cmake"
+  "CMakeFiles/3.31.5/CMakeCCompiler.cmake"
+  "CMakeFiles/3.31.5/CMakeCXXCompiler.cmake"
+  "CMakeFiles/3.31.5/CMakeSystem.cmake"
   "/usr/local/share/cmake/Modules/CMakeASMInformation.cmake"
   "/usr/local/share/cmake/Modules/CMakeCInformation.cmake"
   "/usr/local/share/cmake/Modules/CMakeCXXInformation.cmake"

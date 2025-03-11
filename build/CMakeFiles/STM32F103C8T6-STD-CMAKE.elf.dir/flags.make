@@ -5,13 +5,13 @@
 # compile C with /usr/local/bin/arm-none-eabi-gcc
 ASM_DEFINES = -DSTM32F103xB -DSTM32F10X_MD -DUSE_HAL_DRIVER -DUSE_STDPERIPH_DRIVER
 
-ASM_INCLUDES = -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./Hardware -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./Library -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./Start -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./System -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./User
+ASM_INCLUDES = -I/Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware -I/Users/miao/STM32F103C8T6-STD-CMAKE/./Library -I/Users/miao/STM32F103C8T6-STD-CMAKE/./Start -I/Users/miao/STM32F103C8T6-STD-CMAKE/./System -I/Users/miao/STM32F103C8T6-STD-CMAKE/./User
 
 ASM_FLAGS = -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
 C_DEFINES = -DSTM32F103xB -DSTM32F10X_MD -DUSE_HAL_DRIVER -DUSE_STDPERIPH_DRIVER
 
-C_INCLUDES = -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./Hardware -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./Library -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./Start -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./System -I/Users/miao/Documents/StmProject/STM32F103C8T6-STD-CMAKE/./User
+C_INCLUDES = -I/Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware -I/Users/miao/STM32F103C8T6-STD-CMAKE/./Library -I/Users/miao/STM32F103C8T6-STD-CMAKE/./Start -I/Users/miao/STM32F103C8T6-STD-CMAKE/./System -I/Users/miao/STM32F103C8T6-STD-CMAKE/./User
 
 C_FLAGS = -std=gnu11 -mcpu=cortex-m3 -mthumb -mthumb-interwork -ffunction-sections -fdata-sections -fno-common -fmessage-length=0 -Og -g
 
