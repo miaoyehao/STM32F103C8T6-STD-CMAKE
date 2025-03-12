@@ -100,10 +100,24 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.s"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/LED.c -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.s
 
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c
+
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing C source to CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.i"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c > CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.i
+
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling C source to assembly CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.s"
+	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.s
+
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.i: cmake_force
@@ -117,7 +131,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.s: cmake_force
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.i: cmake_force
@@ -131,7 +145,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.s: cmake_force
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.i: cmake_force
@@ -145,7 +159,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_bkp.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_bkp.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.i: cmake_force
@@ -159,7 +173,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_bkp.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_can.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_can.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.i: cmake_force
@@ -173,7 +187,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_can.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.i: cmake_force
@@ -187,7 +201,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_cec.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_crc.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_crc.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.i: cmake_force
@@ -201,7 +215,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_crc.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dac.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dac.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.i: cmake_force
@@ -215,7 +229,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dac.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.i: cmake_force
@@ -229,7 +243,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dbgmcu.c.s: cmake_f
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dma.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dma.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.i: cmake_force
@@ -243,7 +257,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_dma.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_exti.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_exti.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.i: cmake_force
@@ -257,7 +271,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_exti.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_flash.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_flash.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.i: cmake_force
@@ -271,7 +285,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_flash.c.s: cmake_fo
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_fsmc.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_fsmc.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.i: cmake_force
@@ -285,7 +299,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_fsmc.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_gpio.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_gpio.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.i: cmake_force
@@ -299,7 +313,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_gpio.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_i2c.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_i2c.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.i: cmake_force
@@ -313,7 +327,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_i2c.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_iwdg.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_iwdg.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.i: cmake_force
@@ -327,7 +341,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_iwdg.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_pwr.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_pwr.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.i: cmake_force
@@ -341,7 +355,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_pwr.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rcc.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rcc.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.i: cmake_force
@@ -355,7 +369,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rcc.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rtc.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rtc.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.i: cmake_force
@@ -369,7 +383,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_rtc.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_sdio.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_sdio.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.i: cmake_force
@@ -383,7 +397,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_sdio.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_spi.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_spi.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.i: cmake_force
@@ -397,7 +411,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_spi.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_tim.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_tim.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.i: cmake_force
@@ -411,7 +425,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_tim.c.s: cmake_forc
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_usart.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_usart.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.i: cmake_force
@@ -425,7 +439,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_usart.c.s: cmake_fo
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_wwdg.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_wwdg.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.i: cmake_force
@@ -439,7 +453,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_wwdg.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Start/core_cm3.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Start/core_cm3.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.i: cmake_force
@@ -452,7 +466,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.s: cmake_force
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Start/startup_stm32f103xb.s
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building ASM object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Start/startup_stm32f103xb.s
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.i: cmake_force
@@ -466,7 +480,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/startup_stm32f103xb.s.s: cmake_
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.i: cmake_force
@@ -480,7 +494,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.s: cmake_for
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.i: cmake_force
@@ -494,7 +508,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.s: cmake_force
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.i: cmake_force
@@ -508,7 +522,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.s: cmake_force
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/flags.make
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.c
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj"
 	/usr/local/bin/arm-none-eabi-gcc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj -MF CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj.d -o CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj -c /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.c
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.i: cmake_force
@@ -523,6 +537,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.s: cmake_force
 STM32F103C8T6__STD__CMAKE_elf_OBJECTS = \
 "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj" \
 "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj" \
+"CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj" \
 "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj" \
 "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj" \
 "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj" \
@@ -559,6 +574,7 @@ STM32F103C8T6__STD__CMAKE_elf_EXTERNAL_OBJECTS =
 
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj
+STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj
@@ -591,7 +607,7 @@ STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/mai
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make
 STM32F103C8T6-STD-CMAKE.elf: CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking C executable STM32F103C8T6-STD-CMAKE.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=/Users/miao/STM32F103C8T6-STD-CMAKE/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking C executable STM32F103C8T6-STD-CMAKE.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

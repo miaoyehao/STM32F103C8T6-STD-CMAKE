@@ -198,6 +198,35 @@ Discarded input sections
  .debug_frame   0x00000000       0xc0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj
  .ARM.attributes
                 0x00000000       0x2d CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj
+ .text          0x00000000        0x0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .data          0x00000000        0x0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .bss           0x00000000        0x0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .text.MPU6050_WaitEvent
+                0x00000000       0x1c CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .text.MPU6050_WriteReg
+                0x00000000       0x68 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .text.MPU6050_ReadReg
+                0x00000000       0xa0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .text.MPU6050_Init
+                0x00000000       0xa8 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .text.MPU6050_GetID
+                0x00000000        0xa CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .text.MPU6050_GetData
+                0x00000000       0x8c CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_info    0x00000000      0xb1f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_abbrev  0x00000000      0x1dd CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_loclists
+                0x00000000      0x1c0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_aranges
+                0x00000000       0x48 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_rnglists
+                0x00000000       0x34 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_line    0x00000000      0x399 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_str     0x00000000      0x5b3 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .comment       0x00000000       0x46 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .debug_frame   0x00000000       0xc0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+ .ARM.attributes
+                0x00000000       0x2d CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
  .text          0x00000000        0x0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj
  .data          0x00000000        0x0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj
  .bss           0x00000000        0x0 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj
@@ -1922,6 +1951,7 @@ LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-no
 LOAD /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/14.2.1/../../../../arm-none-eabi/lib/thumb/v7-m/nofp/crt0.o
 LOAD CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj
 LOAD CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj
+LOAD CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
 LOAD CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj
 LOAD CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj
 LOAD CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj

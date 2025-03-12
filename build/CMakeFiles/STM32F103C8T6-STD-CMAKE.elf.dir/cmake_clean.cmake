@@ -3,6 +3,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj.d"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj.d"
+  "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj"
+  "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj.d"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj.d"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj"

@@ -33,6 +33,7 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/Key.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/LED.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/stm32f10x_adc.c.obj.d"

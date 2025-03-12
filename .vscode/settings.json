@@ -2,7 +2,8 @@
     "files.associations": {
         "delay.h": "c",
         "stm32f10x.h": "c",
-        "oled.h": "c"
+        "oled.h": "c",
+        "cstdint": "cpp"
     },
     "cmake.sourceDirectory": "/Users/miao/Documents/StmProject/STD"
 }

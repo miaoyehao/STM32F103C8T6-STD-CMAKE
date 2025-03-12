@@ -177,6 +177,30 @@ Hardware/LED.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.s
 .PHONY : Hardware/LED.c.s
 
+Hardware/MPU6050.obj: Hardware/MPU6050.c.obj
+.PHONY : Hardware/MPU6050.obj
+
+# target to build an object file
+Hardware/MPU6050.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj
+.PHONY : Hardware/MPU6050.c.obj
+
+Hardware/MPU6050.i: Hardware/MPU6050.c.i
+.PHONY : Hardware/MPU6050.i
+
+# target to preprocess a source file
+Hardware/MPU6050.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.i
+.PHONY : Hardware/MPU6050.c.i
+
+Hardware/MPU6050.s: Hardware/MPU6050.c.s
+.PHONY : Hardware/MPU6050.s
+
+# target to generate assembly for a file
+Hardware/MPU6050.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.s
+.PHONY : Hardware/MPU6050.c.s
+
 Hardware/OLED.obj: Hardware/OLED.c.obj
 .PHONY : Hardware/OLED.obj
 
@@ -896,6 +920,9 @@ help:
 	@echo "... Hardware/LED.obj"
 	@echo "... Hardware/LED.i"
 	@echo "... Hardware/LED.s"
+	@echo "... Hardware/MPU6050.obj"
+	@echo "... Hardware/MPU6050.i"
+	@echo "... Hardware/MPU6050.s"
 	@echo "... Hardware/OLED.obj"
 	@echo "... Hardware/OLED.i"
 	@echo "... Hardware/OLED.s"
