@@ -3,16 +3,14 @@
         {
             "name": "STM32F103C8T6",
             "includePath": [
-                "${workspaceFolder}/**",
-                "/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/include"
+                "${workspaceFolder}/**"
             ],
             "defines": [
                 "STM32F10X_MD",
                 "USE_STDPERIPH_DRIVER",
                 "_DEBUG",
                 "UNICODE",
-                "_UNICODE",
-                "HSE_VALUE=8000000" 
+                "_UNICODE"
             ],
             "macFrameworkPath": [
                 "/Library/Developer/CommandLineTools/SDKs/MacOSX.sdk/System/Library/Frameworks"

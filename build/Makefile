@@ -201,6 +201,30 @@ Hardware/MPU6050.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.s
 .PHONY : Hardware/MPU6050.c.s
 
+Hardware/MyI2C.obj: Hardware/MyI2C.c.obj
+.PHONY : Hardware/MyI2C.obj
+
+# target to build an object file
+Hardware/MyI2C.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyI2C.c.obj
+.PHONY : Hardware/MyI2C.c.obj
+
+Hardware/MyI2C.i: Hardware/MyI2C.c.i
+.PHONY : Hardware/MyI2C.i
+
+# target to preprocess a source file
+Hardware/MyI2C.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyI2C.c.i
+.PHONY : Hardware/MyI2C.c.i
+
+Hardware/MyI2C.s: Hardware/MyI2C.c.s
+.PHONY : Hardware/MyI2C.s
+
+# target to generate assembly for a file
+Hardware/MyI2C.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyI2C.c.s
+.PHONY : Hardware/MyI2C.c.s
+
 Hardware/OLED.obj: Hardware/OLED.c.obj
 .PHONY : Hardware/OLED.obj
 
@@ -923,6 +947,9 @@ help:
 	@echo "... Hardware/MPU6050.obj"
 	@echo "... Hardware/MPU6050.i"
 	@echo "... Hardware/MPU6050.s"
+	@echo "... Hardware/MyI2C.obj"
+	@echo "... Hardware/MyI2C.i"
+	@echo "... Hardware/MyI2C.s"
 	@echo "... Hardware/OLED.obj"
 	@echo "... Hardware/OLED.i"
 	@echo "... Hardware/OLED.s"
