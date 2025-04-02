@@ -34,6 +34,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/Key.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/LED.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MyCAN.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyCAN.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyCAN.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MyI2C.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyI2C.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyI2C.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/OLED.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Library/misc.c.obj.d"
@@ -62,6 +63,8 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Start/core_cm3.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/core_cm3.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj.d"
   )

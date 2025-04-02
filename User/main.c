@@ -4,6 +4,7 @@
 #include "MyFLASH.h"
 #include "Key.h"
 #include "Store.h"
+#include "MyCAN.h"
 
 uint8_t KeyNum;
 

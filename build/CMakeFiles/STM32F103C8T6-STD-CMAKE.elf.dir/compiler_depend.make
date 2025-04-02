@@ -111,6 +111,42 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj: /Users/miao/S
   /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_conf.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050_Reg.h
 
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyCAN.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MyCAN.c \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_bkp.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_can.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_crc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dac.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dma.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_exti.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_flash.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_fsmc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_gpio.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_i2c.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_iwdg.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_pwr.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rcc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rtc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_sdio.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_spi.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_tim.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_usart.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_wwdg.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/core_cm3.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/stm32f10x.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_conf.h
+
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyI2C.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MyI2C.c \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
@@ -1133,6 +1169,79 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj: /Users/miao/STM32
   /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_conf.h
 
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.c \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_bkp.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_can.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_crc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dac.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dma.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_exti.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_flash.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_fsmc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_gpio.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_i2c.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_iwdg.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_pwr.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rcc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rtc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_sdio.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_spi.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_tim.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_usart.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_wwdg.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/core_cm3.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/stm32f10x.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_conf.h
+
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.c \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_intsup.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
+  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_bkp.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_can.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_crc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dac.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dma.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_exti.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_flash.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_fsmc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_gpio.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_i2c.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_iwdg.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_pwr.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rcc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_rtc.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_sdio.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_spi.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_tim.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_usart.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_wwdg.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/core_cm3.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/stm32f10x.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_conf.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.h
+
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/_newlib_version.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/machine/_default_types.h \
@@ -1141,7 +1250,7 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: /Users/miao/STM32F10
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/features.h \
   /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
-  /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/Key.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/Library/misc.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.h \
@@ -1170,6 +1279,8 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: /Users/miao/STM32F10
   /Users/miao/STM32F103C8T6-STD-CMAKE/Start/stm32f10x.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.h \
+  /Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.h \
   /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_conf.h
 
 CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.c \
@@ -1210,7 +1321,13 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/
   /Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.h
 
 
-/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.h:
+/Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.h:
+
+/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/Key.h:
+
+/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.h:
+
+/Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.c:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.c:
 
@@ -1242,11 +1359,19 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dac.c:
 
+/Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.c:
+
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_can.c:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_sdio.c:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED_Font.h:
+
+/Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.c:
+
+/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h:
+
+/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MyCAN.c:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050_Reg.h:
 
@@ -1261,8 +1386,6 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_exti.c:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.h:
-
-/Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_cec.c:
 
 /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/arm-none-eabi/include/sys/_stdint.h:
 
@@ -1320,6 +1443,8 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_fsmc.h:
 
+/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.c:
+
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_adc.c:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_pwr.h:
@@ -1351,7 +1476,3 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj: /Users/miao/
 /Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_flash.h:
 
 /Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/OLED.c:
-
-/Users/miao/STM32F103C8T6-STD-CMAKE/Library/stm32f10x_dbgmcu.c:
-
-/Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h:

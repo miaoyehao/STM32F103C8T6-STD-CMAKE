@@ -201,6 +201,30 @@ Hardware/MPU6050.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.s
 .PHONY : Hardware/MPU6050.c.s
 
+Hardware/MyCAN.obj: Hardware/MyCAN.c.obj
+.PHONY : Hardware/MyCAN.obj
+
+# target to build an object file
+Hardware/MyCAN.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyCAN.c.obj
+.PHONY : Hardware/MyCAN.c.obj
+
+Hardware/MyCAN.i: Hardware/MyCAN.c.i
+.PHONY : Hardware/MyCAN.i
+
+# target to preprocess a source file
+Hardware/MyCAN.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyCAN.c.i
+.PHONY : Hardware/MyCAN.c.i
+
+Hardware/MyCAN.s: Hardware/MyCAN.c.s
+.PHONY : Hardware/MyCAN.s
+
+# target to generate assembly for a file
+Hardware/MyCAN.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MyCAN.c.s
+.PHONY : Hardware/MyCAN.c.s
+
 Hardware/MyI2C.obj: Hardware/MyI2C.c.obj
 .PHONY : Hardware/MyI2C.obj
 
@@ -881,6 +905,54 @@ System/Delay.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.s
 .PHONY : System/Delay.c.s
 
+System/MyFLASH.obj: System/MyFLASH.c.obj
+.PHONY : System/MyFLASH.obj
+
+# target to build an object file
+System/MyFLASH.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj
+.PHONY : System/MyFLASH.c.obj
+
+System/MyFLASH.i: System/MyFLASH.c.i
+.PHONY : System/MyFLASH.i
+
+# target to preprocess a source file
+System/MyFLASH.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.i
+.PHONY : System/MyFLASH.c.i
+
+System/MyFLASH.s: System/MyFLASH.c.s
+.PHONY : System/MyFLASH.s
+
+# target to generate assembly for a file
+System/MyFLASH.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.s
+.PHONY : System/MyFLASH.c.s
+
+System/Store.obj: System/Store.c.obj
+.PHONY : System/Store.obj
+
+# target to build an object file
+System/Store.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj
+.PHONY : System/Store.c.obj
+
+System/Store.i: System/Store.c.i
+.PHONY : System/Store.i
+
+# target to preprocess a source file
+System/Store.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.i
+.PHONY : System/Store.c.i
+
+System/Store.s: System/Store.c.s
+.PHONY : System/Store.s
+
+# target to generate assembly for a file
+System/Store.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.s
+.PHONY : System/Store.c.s
+
 User/main.obj: User/main.c.obj
 .PHONY : User/main.obj
 
@@ -947,6 +1019,9 @@ help:
 	@echo "... Hardware/MPU6050.obj"
 	@echo "... Hardware/MPU6050.i"
 	@echo "... Hardware/MPU6050.s"
+	@echo "... Hardware/MyCAN.obj"
+	@echo "... Hardware/MyCAN.i"
+	@echo "... Hardware/MyCAN.s"
 	@echo "... Hardware/MyI2C.obj"
 	@echo "... Hardware/MyI2C.i"
 	@echo "... Hardware/MyI2C.s"
@@ -1032,6 +1107,12 @@ help:
 	@echo "... System/Delay.obj"
 	@echo "... System/Delay.i"
 	@echo "... System/Delay.s"
+	@echo "... System/MyFLASH.obj"
+	@echo "... System/MyFLASH.i"
+	@echo "... System/MyFLASH.s"
+	@echo "... System/Store.obj"
+	@echo "... System/Store.i"
+	@echo "... System/Store.s"
 	@echo "... User/main.obj"
 	@echo "... User/main.i"
 	@echo "... User/main.s"

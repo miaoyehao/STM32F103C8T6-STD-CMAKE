@@ -1,5 +1,5 @@
-CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: \
- /Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c \
+CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj: \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.c \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Start/stm32f10x.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Start/core_cm3.h \
  /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stdint.h \
@@ -33,9 +33,4 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/stm32f10x_tim.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/stm32f10x_usart.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/stm32f10x_wwdg.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/misc.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./System/Delay.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware/OLED.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./System/MyFLASH.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware/Key.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./System/Store.h
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/misc.h
