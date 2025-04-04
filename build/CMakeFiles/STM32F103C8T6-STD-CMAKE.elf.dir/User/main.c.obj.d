@@ -35,7 +35,4 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/stm32f10x_wwdg.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/misc.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./System/Delay.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware/OLED.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./System/MyFLASH.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware/Key.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./System/Store.h
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware/OLED.h

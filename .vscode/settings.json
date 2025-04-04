@@ -5,7 +5,8 @@
         "oled.h": "c",
         "cstdint": "cpp",
         "mpu6050_reg.h": "c",
-        "myflash.h": "c"
+        "myflash.h": "c",
+        "myrtc.h": "c"
     },
     "cmake.sourceDirectory": "/Users/miao/Documents/StmProject/STD"
 }

@@ -929,6 +929,30 @@ System/MyFLASH.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.s
 .PHONY : System/MyFLASH.c.s
 
+System/MyRTC.obj: System/MyRTC.c.obj
+.PHONY : System/MyRTC.obj
+
+# target to build an object file
+System/MyRTC.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj
+.PHONY : System/MyRTC.c.obj
+
+System/MyRTC.i: System/MyRTC.c.i
+.PHONY : System/MyRTC.i
+
+# target to preprocess a source file
+System/MyRTC.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.i
+.PHONY : System/MyRTC.c.i
+
+System/MyRTC.s: System/MyRTC.c.s
+.PHONY : System/MyRTC.s
+
+# target to generate assembly for a file
+System/MyRTC.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.s
+.PHONY : System/MyRTC.c.s
+
 System/Store.obj: System/Store.c.obj
 .PHONY : System/Store.obj
 
@@ -1110,6 +1134,9 @@ help:
 	@echo "... System/MyFLASH.obj"
 	@echo "... System/MyFLASH.i"
 	@echo "... System/MyFLASH.s"
+	@echo "... System/MyRTC.obj"
+	@echo "... System/MyRTC.i"
+	@echo "... System/MyRTC.s"
 	@echo "... System/Store.obj"
 	@echo "... System/Store.i"
 	@echo "... System/Store.s"

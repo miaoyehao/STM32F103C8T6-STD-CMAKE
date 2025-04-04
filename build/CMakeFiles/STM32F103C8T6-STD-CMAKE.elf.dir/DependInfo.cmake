@@ -64,6 +64,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Start/system_stm32f10x.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Start/system_stm32f10x.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyRTC.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj.d"

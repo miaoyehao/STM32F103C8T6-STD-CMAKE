@@ -66,6 +66,8 @@ file(REMOVE_RECURSE
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj.d"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj.d"
+  "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj"
+  "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj.d"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj.d"
   "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj"

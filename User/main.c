@@ -1,56 +1,20 @@
 #include "stm32f10x.h"                  // Device header
 #include "Delay.h"
 #include "OLED.h"
-#include "MyFLASH.h"
-#include "Key.h"
-#include "Store.h"
-#include "MyCAN.h"
-
-uint8_t KeyNum;
 
 int main(void)
 {
-	/*模块初始化*/
-	OLED_Init();		//OLED初始化
-	Key_Init();
-	Store_Init();
-
-	OLED_ShowString(1, 1, "Flag:");
-	OLED_ShowString(1, 1, "Data:");
-
-	/*OLED_ShowHexNum(1, 1, Myflash_ReadWord(0x08000000), 8);
-	OLED_ShowHexNum(2, 1, Myflash_ReadHalfWord(0x08000000), 8);
-	OLED_ShowHexNum(3, 1, Myflash_ReadByte(0x08000000), 8);
-
-	MyFLASH_ErasePage(0x0800FC00);
-	MyFLASH_ProgramWord(0x0800FC00, 0x12345678);
-	MyFLASH_ProgramHalfWord(0x0800FC10, 0xABCD);*/
+	OLED_Init();							//OLED初始化
 	
-
-
+	OLED_ShowString(1, 1, "SYSCLK:");		//显示静态字符串
+	OLED_ShowNum(1, 8, SystemCoreClock, 8);	//显示SystemCoreClock变量
+											//SystemCoreClock的值表示当前的系统主频频率
+	
 	while (1)
 	{
-		KeyNum = Key_GetNum();
-		if(KeyNum == 1)
-		{
-			Store_Data[0] ++;
-			Store_Data[1] += 1;
-			Store_Data[2] += 2;
-			Store_Data[3] += 3;
-			Store_Data[4] += 4;
-			Store_Save();
-			//MyFLASH_EraseALLPages();
-		}
-		if(KeyNum == 2)
-		{
-			Store_Clear();
-			//MyFLASH_ErasePage(0x08000000);
-		}
-		OLED_ShowHexNum(1,6,Store_Data[0],4);
-		OLED_ShowHexNum(3,1,Store_Data[1],4);
-		OLED_ShowHexNum(3,6,Store_Data[2],4);
-		OLED_ShowHexNum(4,1,Store_Data[3],4);
-		OLED_ShowHexNum(4,6,Store_Data[4],4);
-		
-	}		
+		OLED_ShowString(2, 1, "Running");	//闪烁Running，指示当前主循环运行的快慢
+		Delay_ms(500);
+		OLED_ShowString(2, 1, "       ");
+		Delay_ms(500);
+	}
 }
