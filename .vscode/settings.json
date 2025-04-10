@@ -6,7 +6,9 @@
         "cstdint": "cpp",
         "mpu6050_reg.h": "c",
         "myflash.h": "c",
-        "myrtc.h": "c"
+        "myrtc.h": "c",
+        "freertos.h": "c",
+        "task.h": "c"
     },
     "cmake.sourceDirectory": "/Users/miao/Documents/StmProject/STD"
 }

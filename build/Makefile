@@ -129,6 +129,198 @@ STM32F103C8T6-STD-CMAKE.elf/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build
 .PHONY : STM32F103C8T6-STD-CMAKE.elf/fast
 
+FreeRTOS/croutine.obj: FreeRTOS/croutine.c.obj
+.PHONY : FreeRTOS/croutine.obj
+
+# target to build an object file
+FreeRTOS/croutine.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/croutine.c.obj
+.PHONY : FreeRTOS/croutine.c.obj
+
+FreeRTOS/croutine.i: FreeRTOS/croutine.c.i
+.PHONY : FreeRTOS/croutine.i
+
+# target to preprocess a source file
+FreeRTOS/croutine.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/croutine.c.i
+.PHONY : FreeRTOS/croutine.c.i
+
+FreeRTOS/croutine.s: FreeRTOS/croutine.c.s
+.PHONY : FreeRTOS/croutine.s
+
+# target to generate assembly for a file
+FreeRTOS/croutine.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/croutine.c.s
+.PHONY : FreeRTOS/croutine.c.s
+
+FreeRTOS/event_groups.obj: FreeRTOS/event_groups.c.obj
+.PHONY : FreeRTOS/event_groups.obj
+
+# target to build an object file
+FreeRTOS/event_groups.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/event_groups.c.obj
+.PHONY : FreeRTOS/event_groups.c.obj
+
+FreeRTOS/event_groups.i: FreeRTOS/event_groups.c.i
+.PHONY : FreeRTOS/event_groups.i
+
+# target to preprocess a source file
+FreeRTOS/event_groups.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/event_groups.c.i
+.PHONY : FreeRTOS/event_groups.c.i
+
+FreeRTOS/event_groups.s: FreeRTOS/event_groups.c.s
+.PHONY : FreeRTOS/event_groups.s
+
+# target to generate assembly for a file
+FreeRTOS/event_groups.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/event_groups.c.s
+.PHONY : FreeRTOS/event_groups.c.s
+
+FreeRTOS/heap_4.obj: FreeRTOS/heap_4.c.obj
+.PHONY : FreeRTOS/heap_4.obj
+
+# target to build an object file
+FreeRTOS/heap_4.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/heap_4.c.obj
+.PHONY : FreeRTOS/heap_4.c.obj
+
+FreeRTOS/heap_4.i: FreeRTOS/heap_4.c.i
+.PHONY : FreeRTOS/heap_4.i
+
+# target to preprocess a source file
+FreeRTOS/heap_4.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/heap_4.c.i
+.PHONY : FreeRTOS/heap_4.c.i
+
+FreeRTOS/heap_4.s: FreeRTOS/heap_4.c.s
+.PHONY : FreeRTOS/heap_4.s
+
+# target to generate assembly for a file
+FreeRTOS/heap_4.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/heap_4.c.s
+.PHONY : FreeRTOS/heap_4.c.s
+
+FreeRTOS/list.obj: FreeRTOS/list.c.obj
+.PHONY : FreeRTOS/list.obj
+
+# target to build an object file
+FreeRTOS/list.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/list.c.obj
+.PHONY : FreeRTOS/list.c.obj
+
+FreeRTOS/list.i: FreeRTOS/list.c.i
+.PHONY : FreeRTOS/list.i
+
+# target to preprocess a source file
+FreeRTOS/list.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/list.c.i
+.PHONY : FreeRTOS/list.c.i
+
+FreeRTOS/list.s: FreeRTOS/list.c.s
+.PHONY : FreeRTOS/list.s
+
+# target to generate assembly for a file
+FreeRTOS/list.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/list.c.s
+.PHONY : FreeRTOS/list.c.s
+
+FreeRTOS/port.obj: FreeRTOS/port.c.obj
+.PHONY : FreeRTOS/port.obj
+
+# target to build an object file
+FreeRTOS/port.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/port.c.obj
+.PHONY : FreeRTOS/port.c.obj
+
+FreeRTOS/port.i: FreeRTOS/port.c.i
+.PHONY : FreeRTOS/port.i
+
+# target to preprocess a source file
+FreeRTOS/port.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/port.c.i
+.PHONY : FreeRTOS/port.c.i
+
+FreeRTOS/port.s: FreeRTOS/port.c.s
+.PHONY : FreeRTOS/port.s
+
+# target to generate assembly for a file
+FreeRTOS/port.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/port.c.s
+.PHONY : FreeRTOS/port.c.s
+
+FreeRTOS/queue.obj: FreeRTOS/queue.c.obj
+.PHONY : FreeRTOS/queue.obj
+
+# target to build an object file
+FreeRTOS/queue.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/queue.c.obj
+.PHONY : FreeRTOS/queue.c.obj
+
+FreeRTOS/queue.i: FreeRTOS/queue.c.i
+.PHONY : FreeRTOS/queue.i
+
+# target to preprocess a source file
+FreeRTOS/queue.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/queue.c.i
+.PHONY : FreeRTOS/queue.c.i
+
+FreeRTOS/queue.s: FreeRTOS/queue.c.s
+.PHONY : FreeRTOS/queue.s
+
+# target to generate assembly for a file
+FreeRTOS/queue.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/queue.c.s
+.PHONY : FreeRTOS/queue.c.s
+
+FreeRTOS/tasks.obj: FreeRTOS/tasks.c.obj
+.PHONY : FreeRTOS/tasks.obj
+
+# target to build an object file
+FreeRTOS/tasks.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/tasks.c.obj
+.PHONY : FreeRTOS/tasks.c.obj
+
+FreeRTOS/tasks.i: FreeRTOS/tasks.c.i
+.PHONY : FreeRTOS/tasks.i
+
+# target to preprocess a source file
+FreeRTOS/tasks.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/tasks.c.i
+.PHONY : FreeRTOS/tasks.c.i
+
+FreeRTOS/tasks.s: FreeRTOS/tasks.c.s
+.PHONY : FreeRTOS/tasks.s
+
+# target to generate assembly for a file
+FreeRTOS/tasks.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/tasks.c.s
+.PHONY : FreeRTOS/tasks.c.s
+
+FreeRTOS/timers.obj: FreeRTOS/timers.c.obj
+.PHONY : FreeRTOS/timers.obj
+
+# target to build an object file
+FreeRTOS/timers.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/timers.c.obj
+.PHONY : FreeRTOS/timers.c.obj
+
+FreeRTOS/timers.i: FreeRTOS/timers.c.i
+.PHONY : FreeRTOS/timers.i
+
+# target to preprocess a source file
+FreeRTOS/timers.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/timers.c.i
+.PHONY : FreeRTOS/timers.c.i
+
+FreeRTOS/timers.s: FreeRTOS/timers.c.s
+.PHONY : FreeRTOS/timers.s
+
+# target to generate assembly for a file
+FreeRTOS/timers.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/timers.c.s
+.PHONY : FreeRTOS/timers.c.s
+
 Hardware/Key.obj: Hardware/Key.c.obj
 .PHONY : Hardware/Key.obj
 
@@ -953,6 +1145,30 @@ System/MyRTC.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.s
 .PHONY : System/MyRTC.c.s
 
+System/Serial.obj: System/Serial.c.obj
+.PHONY : System/Serial.obj
+
+# target to build an object file
+System/Serial.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Serial.c.obj
+.PHONY : System/Serial.c.obj
+
+System/Serial.i: System/Serial.c.i
+.PHONY : System/Serial.i
+
+# target to preprocess a source file
+System/Serial.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Serial.c.i
+.PHONY : System/Serial.c.i
+
+System/Serial.s: System/Serial.c.s
+.PHONY : System/Serial.s
+
+# target to generate assembly for a file
+System/Serial.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/build.make CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Serial.c.s
+.PHONY : System/Serial.c.s
+
 System/Store.obj: System/Store.c.obj
 .PHONY : System/Store.obj
 
@@ -1034,6 +1250,30 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... STM32F103C8T6-STD-CMAKE.elf"
+	@echo "... FreeRTOS/croutine.obj"
+	@echo "... FreeRTOS/croutine.i"
+	@echo "... FreeRTOS/croutine.s"
+	@echo "... FreeRTOS/event_groups.obj"
+	@echo "... FreeRTOS/event_groups.i"
+	@echo "... FreeRTOS/event_groups.s"
+	@echo "... FreeRTOS/heap_4.obj"
+	@echo "... FreeRTOS/heap_4.i"
+	@echo "... FreeRTOS/heap_4.s"
+	@echo "... FreeRTOS/list.obj"
+	@echo "... FreeRTOS/list.i"
+	@echo "... FreeRTOS/list.s"
+	@echo "... FreeRTOS/port.obj"
+	@echo "... FreeRTOS/port.i"
+	@echo "... FreeRTOS/port.s"
+	@echo "... FreeRTOS/queue.obj"
+	@echo "... FreeRTOS/queue.i"
+	@echo "... FreeRTOS/queue.s"
+	@echo "... FreeRTOS/tasks.obj"
+	@echo "... FreeRTOS/tasks.i"
+	@echo "... FreeRTOS/tasks.s"
+	@echo "... FreeRTOS/timers.obj"
+	@echo "... FreeRTOS/timers.i"
+	@echo "... FreeRTOS/timers.s"
 	@echo "... Hardware/Key.obj"
 	@echo "... Hardware/Key.i"
 	@echo "... Hardware/Key.s"
@@ -1137,6 +1377,9 @@ help:
 	@echo "... System/MyRTC.obj"
 	@echo "... System/MyRTC.i"
 	@echo "... System/MyRTC.s"
+	@echo "... System/Serial.obj"
+	@echo "... System/Serial.i"
+	@echo "... System/Serial.s"
 	@echo "... System/Store.obj"
 	@echo "... System/Store.i"
 	@echo "... System/Store.s"

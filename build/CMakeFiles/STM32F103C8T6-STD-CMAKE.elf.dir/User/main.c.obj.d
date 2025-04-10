@@ -34,5 +34,13 @@ CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj: \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/stm32f10x_usart.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/stm32f10x_wwdg.h \
  /Users/miao/STM32F103C8T6-STD-CMAKE/./Library/misc.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./System/Delay.h \
- /Users/miao/STM32F103C8T6-STD-CMAKE/./Hardware/OLED.h
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/FreeRTOS.h \
+ /Applications/ArmGNUToolchain/14.2.rel1/arm-none-eabi/lib/gcc/arm-none-eabi/14.2.1/include/stddef.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/FreeRTOSConfig.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/projdefs.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/portable.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/deprecated_definitions.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/portmacro.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/mpu_wrappers.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/task.h \
+ /Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS/list.h

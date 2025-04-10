@@ -1,20 +1,31 @@
 #include "stm32f10x.h"                  // Device header
-#include "Delay.h"
-#include "OLED.h"
+#include "FreeRTOS.h"
+#include "task.h"
 
-int main(void)
+TaskHandle_t MyTaskhandle;
+
+void MyTask(void *pvParameters)
 {
-	OLED_Init();							//OLED初始化
-	
-	OLED_ShowString(1, 1, "SYSCLK:");		//显示静态字符串
-	OLED_ShowNum(1, 8, SystemCoreClock, 8);	//显示SystemCoreClock变量
-											//SystemCoreClock的值表示当前的系统主频频率
-	
 	while (1)
 	{
-		OLED_ShowString(2, 1, "Running");	//闪烁Running，指示当前主循环运行的快慢
-		Delay_ms(500);
-		OLED_ShowString(2, 1, "       ");
-		Delay_ms(500);
+		GPIO_ResetBits(GPIOC, GPIO_Pin_13); // Set Pin 13 low
+		vTaskDelay(500); // Delay for 500 ms
+		GPIO_SetBits(GPIOC, GPIO_Pin_13); // Set Pin 13 high
+		vTaskDelay(500); // Delay for 500 ms
+	}
+}
+int main(void)
+{
+	RCC_APB2PeriphClockCmd(RCC_APB2Periph_GPIOC, ENABLE); // Enable GPIOC clock
+	GPIO_InitTypeDef GPIO_InitStructure;
+	GPIO_InitStructure.GPIO_Pin = GPIO_Pin_13; // Pin 13
+	GPIO_InitStructure.GPIO_Mode = GPIO_Mode_Out_PP; // Push-pull output
+	GPIO_InitStructure.GPIO_Speed = GPIO_Speed_50MHz; // 
+	GPIO_Init(GPIOC, &GPIO_InitStructure); // Initialize GPIOC
+	xTaskCreate(MyTaskhandle,"MyTask", 128, NULL, 2, &MyTaskhandle);
+	vTaskStartScheduler();
+	while (1)
+	{
+		
 	}
 }

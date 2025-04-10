@@ -27,10 +27,19 @@ set(CMAKE_ASM_TARGET_INCLUDE_PATH
   "/Users/miao/STM32F103C8T6-STD-CMAKE/./Start"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/./System"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/./User"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/./FreeRTOS"
   )
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/croutine.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/croutine.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/croutine.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/event_groups.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/event_groups.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/event_groups.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/heap_4.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/heap_4.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/heap_4.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/list.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/list.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/list.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/port.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/port.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/port.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/queue.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/queue.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/queue.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/tasks.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/tasks.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/tasks.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/FreeRTOS/timers.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/timers.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/FreeRTOS/timers.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/Key.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/Key.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/LED.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/LED.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/Hardware/MPU6050.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/Hardware/MPU6050.c.obj.d"
@@ -65,6 +74,7 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Delay.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Delay.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyFLASH.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyFLASH.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/MyRTC.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/MyRTC.c.obj.d"
+  "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Serial.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Serial.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Serial.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/System/Store.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/System/Store.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/User/main.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/main.c.obj.d"
   "/Users/miao/STM32F103C8T6-STD-CMAKE/User/stm32f10x_it.c" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj" "gcc" "CMakeFiles/STM32F103C8T6-STD-CMAKE.elf.dir/User/stm32f10x_it.c.obj.d"

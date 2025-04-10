@@ -29,7 +29,7 @@ set(CMAKE_C_STANDARD 11)
 # Uncomment for software floating point
 # add_compile_options(-mfloat-abi=soft)
 
-add_compile_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
+add_compile_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork -fno-strict-aliasing)
 add_compile_options(-ffunction-sections -fdata-sections -fno-common -fmessage-length=0)
 
 # uncomment to mitigate c++17 absolute addresses warnings
@@ -49,7 +49,7 @@ else ()
 endif ()
 
 # 添加宏定义
-add_definitions(-DUSE_HAL_DRIVER -DSTM32F103xB -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD)
+add_definitions(-DUSE_HAL_DRIVER -DSTM32F103xB -DUSE_STDPERIPH_DRIVER -DSTM32F10X_MD )
 
 # 添加头文件路径，即.h文件
 include_directories(
@@ -58,6 +58,7 @@ include_directories(
     ./Start 
     ./System 
     ./User
+    ./FreeRTOS
 )
 
 # 添加源文件路径,即.c或者.s文件
@@ -67,6 +68,7 @@ file(GLOB_RECURSE SOURCES
     ./Start/*.c
     ./System/*.c
     ./User/*.c
+    ./FreeRTOS/*.c
     ./Start/startup_stm32f103xb.s
 )
 
@@ -75,7 +77,7 @@ set(LINKER_SCRIPT ${CMAKE_SOURCE_DIR}/Start/stm32f103c8tx_flash.ld)
 
 add_link_options(-Wl,-gc-sections,--print-memory-usage,-Map=${PROJECT_BINARY_DIR}/${PROJECT_NAME}.map)
 # 选择cortex-m3内核
-add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork)
+add_link_options(-mcpu=cortex-m3 -mthumb -mthumb-interwork -mfloat-abi=hard -mfpu=fpv4-sp-d16)
 add_link_options(-T ${LINKER_SCRIPT})
 
 add_link_options(-specs=nano.specs -specs=nosys.specs -u _printf_float)
